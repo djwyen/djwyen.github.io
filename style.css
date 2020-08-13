@@ -59,6 +59,8 @@
 
 body {
   align-items: center;
+  background-color: var(--background);
+  transition: background-color 1.5s ease;
 }
 
 a {
@@ -112,6 +114,7 @@ hr {
   border-radius: 25px;
   font-size: 30px;
   background-color: var(--orange);
+  transition: background-color 1.5s ease;
 }
 
 .blog-post {
