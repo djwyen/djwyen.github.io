@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+:root {
+  --primary: #FA8C16;
+  --primary-l: #FFC069;
+  --secondary: #08979C;
+  --secondary-d: #00474F;
+  --black: #444444;
+  --white: #e8e8e8;
+
+
+  --xs: 4px;
+  --s: 8px;
+  --m: 16px;
+  --l: 24px;
+}
+
+body {
+  align-items: center;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:link {
+
+}
+
+a:visited {
+  /* color: var(--secondary-d); */
+}
+
+a:focus {
+
+}
+
+a:hover {
+  color: var(--primary);
+}
+
+
+a:active {
+
+}
+
+p {
+  font-size: 14pt;
+}
+
+h1 {
+  font-size: 26pt;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+h1, h2 {
+  color: var(--black);
+}
+
+
+.blog-post {
+  font-family: 'EB Garamond', serif;
+  margin: auto;
+  max-width: 650px;
+  min-width: 240px;
+}
+
+.blog-post p, h1, h2, h3 {
+  color: var(--black);
+}
