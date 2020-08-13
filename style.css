@@ -1,13 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
 
 :root {
-  --primary: #FA8C16;
+  /* --primary: #FA8C16;
   --primary-l: #FFC069;
   --secondary: #08979C;
   --secondary-d: #00474F;
   --black: #444444;
-  --white: #e8e8e8;
+  --white: #e8e8e8; */
 
+  /* Using the Solarized color theme */
+  --base03: #002b36;
+  --base02: #073642;
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0: #839496;
+  --base1: #93a1a1;
+  --base2: #eee8d5;
+  --base3: #fdf6e3;
+  --yellow: #b58900;
+  --orange: #cb4b16;
+  --red: #dc322f;
+  --magenta: #d33682;
+  --violet: #6c71c4;
+  --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
 
   --xs: 4px;
   --s: 8px;
@@ -15,12 +32,37 @@
   --l: 24px;
 }
 
+:root[color-mode="light"] {
+  /* I'm surprised this works but I'm not complaining */
+  --text-emph: var(--base01);
+  --text: var(--base00);
+  --text-secondary: var(--base1);
+  --background: var(--base3);
+  --selection: var(--base2);
+}
+
+:root[color-mode="dark"] {
+  --text-emph: var(--base1);
+  --text: var(--base0);
+  --text-secondary: var(--base01);
+  --background: var(--base03);
+  --selection: var(--base02);
+}
+
+::selection {
+  background: var(--selection); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--selection); /* Gecko Browsers */
+}
+
+
 body {
   align-items: center;
 }
 
 a {
-  color: var(--secondary);
+  color: var(--cyan);
   text-decoration: none;
 }
 
@@ -37,9 +79,8 @@ a:focus {
 }
 
 a:hover {
-  color: var(--primary);
+  color: var(--orange);
 }
-
 
 a:active {
 
@@ -58,9 +99,20 @@ h2 {
 }
 
 h1, h2 {
-  color: var(--black);
+  color: var(--text-emph);
 }
 
+hr {
+  color: var(--text-secondary);
+}
+
+#color-toggle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 30px;
+  background-color: var(--orange);
+}
 
 .blog-post {
   font-family: 'EB Garamond', serif;
@@ -70,5 +122,5 @@ h1, h2 {
 }
 
 .blog-post p, h1, h2, h3 {
-  color: var(--black);
+  color: var(--text);
 }
