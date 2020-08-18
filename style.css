@@ -68,16 +68,16 @@ a {
   text-decoration: none;
 }
 
-a:link {
+/* a:link {
 
 }
 
 a:visited {
-  /* color: var(--secondary-d); */
-}
+
+} */
 
 a:focus {
-
+  color: var(--orange);
 }
 
 a:hover {
@@ -85,7 +85,7 @@ a:hover {
 }
 
 a:active {
-
+  color: var(--orange);
 }
 
 p {
