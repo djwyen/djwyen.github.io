@@ -28,6 +28,7 @@
 
   --xs: 4px;
   --s: 8px;
+  --sm: 12px;
   --m: 16px;
   --l: 24px;
 }
@@ -90,6 +91,7 @@ a:active {
 
 p {
   font-size: 14pt;
+  color: var(--text);
 }
 
 h1 {
@@ -133,6 +135,12 @@ hr {
   font-family: 'EB Garamond', serif;
 }
 
-.blog-post p, h1, h2, h3 {
-  color: var(--text);
+.date-text + h1 {
+  margin: var(--s) 0px var(--l);
+}
+
+.date-text {
+  font-size: 16pt;
+  color: var(--text-secondary);
+  margin: var(--sm) 0px;
 }
