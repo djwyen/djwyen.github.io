@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Derek Yen"
-  avatar           : "profile.png"
+  avatar           : "headshot.jpg"
   bio              : "MEng student at MIT interested in cryptography, privacy, econ/cs, linguistics"
   location         : "Cambridge, MA"
   employer         :
