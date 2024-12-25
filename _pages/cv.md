@@ -25,11 +25,8 @@ Research experience
 
 * February 2020 -- June 2021: Undergrad Research Assistant, Regina Barzilay Lab
   * Developed reinforcement learning approach for reconstructing proto-languages from daughter languages
-    * Primary challenge is the combinatorial vastness of possible sound laws, even under our simplified, constrained model
   * Defined metric to quantify similarity of alternative proposals of historical sound changes
-    * To our knowledge such a metric is novel; primary challenge is that functionally equivalent sound law sets may be formally quite different, and similarity is only coherent relative to a particular dataset of interest
   * Model achieves comparable performance to linguistic gold standard (89.5% of sound laws)
-  * Supervisor: Jiaming Luo
   
 Skills
 ======
