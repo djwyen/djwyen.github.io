@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* PhD student in Computer Science, NYU, 2024-Present
+* PhD student in Computer Science, NYU, 2024 -- Present
 * MEng in Computer Science, MIT, 2024
 * S.B. in Computer Science, MIT, 2022
 * S.B. in Linguistics, MIT, 2022
