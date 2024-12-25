@@ -13,11 +13,12 @@ Education
 ======
 * B.S. in Computer Science, MIT, 2022
 * B.S. in Linguistics, MIT, 2022
-* MEng in Computer Science, MIT, 2023 (expected)
+* MEng in Computer Science, MIT, 2024
+* PhD student in Computer Science, NYU
 
 Research experience
 ======
-* February 2023 -- Present: Student Researcher, Hyunghoon Cho Lab and Berger Lab
+* February 2023 -- January 2024: Student Researcher, Hyunghoon Cho Lab and Berger Lab
   * Implementing cryptographically-secure polygenic risk score (PRS) estimation in federated data setting
   * Developing algorithms for random variate sampling under homomorphic encryption
   * Security benefits promise larger-scale database collaborations and enhanced patient privacy
@@ -33,7 +34,7 @@ Research experience
 Skills
 ======
 * Programming languages: Python, TypeScript/Javascript, Golang
-* Natural languages: English (native), Mandarin Chinese (heritage), Latin (aspirant)
+* Natural languages: English (native), Mandarin (heritage), Latin (aspirant)
 
 Selected coursework
 ======

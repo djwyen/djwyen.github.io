@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Derek Yen"
 title_separator          : "-"
 name                     : &name "Derek Yen"
-description              : &description "MEng student at MIT"
+description              : &description "PhD student at NYU"
 url                      : https://djwyen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "djwyen.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Derek Yen"
   avatar           : "headshot.jpg"
-  bio              : "MEng student at MIT interested in cryptography, privacy, econ/cs, linguistics"
-  location         : "Cambridge, MA"
+  bio              : "PhD student at NYU interested in cryptography, privacy, econ/cs, linguistics"
+  location         : "New York, NY"
   employer         :
   pubmed           :
   googlescholar    :
-  email            : "djwyen at mit dot edu"
+  email            : "dwy218 at nyu dot edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
