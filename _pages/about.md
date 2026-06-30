@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a PhD student at NYU working with [Sunoo Park](https://sunoopark.com/), [Benedikt Bünz](https://cs.nyu.edu/~bb/), and [Joe Bonneau](https://jbonneau.com/) in cryptography, zero knowledge proofs, and privacy policy.
+Hello! I am a PhD student at NYU doing research in cryptography and privacy policy.
+I am fortunate to be advised by [Sunoo Park](https://sunoopark.com/).
 
 Previously I completed my MEng at MIT working with [Hyunghoon Cho](https://hcholab.org/) and [Bonnie Berger](https://people.csail.mit.edu/bab/) on cryptographically private algorithms for polygenic risk scores.
 Before that I completed my undergrad at MIT in 2022 with a double major in computer science and linguistics.
